@@ -6,6 +6,7 @@ env:
   cache-name: GT_cache
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main, dev, BSML-rewrite, song-details ]
   pull_request:
