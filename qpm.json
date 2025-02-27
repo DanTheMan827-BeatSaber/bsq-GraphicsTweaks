@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/QuestPackageManager/QPM.Package/refs/heads/main/qpm.schema.json",
   "version": "0.2.0",
   "sharedDir": "shared",
   "dependenciesDir": "extern",
@@ -50,15 +51,13 @@
     },
     {
       "id": "bs-cordl",
-      "versionRange": "4020.*",
+      "versionRange": "4030.*",
       "additionalData": {}
     },
     {
       "id": "bsml",
-      "versionRange": "^0.4.49",
-      "additionalData": {
-        "includeQmod": false
-      }
+      "versionRange": "^0.4.50",
+      "additionalData": {}
     },
     {
       "id": "config-utils",
@@ -79,7 +78,7 @@
     },
     {
       "id": "paper2_scotland2",
-      "versionRange": "^4.5.0",
+      "versionRange": "^4.6.1",
       "additionalData": {
         "private": true
       }
@@ -94,7 +93,7 @@
     },
     {
       "id": "sombrero",
-      "versionRange": "^0.1.42",
+      "versionRange": "^0.1.43",
       "additionalData": {}
     }
   ]
